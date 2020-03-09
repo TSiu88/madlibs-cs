@@ -6,8 +6,8 @@ namespace Madlibs.Controllers
 {
   public class HomeController : Controller
   {
-    [Route("/")]
-    public ActionResult Index(string noun1, string noun2, string noun3, string nounPlural, string place, string adjective)
+    [Route("/madlib")]
+    public ActionResult Madlib(string noun1, string noun2, string noun3, string nounPlural, string place, string adjective)
     {
       Story myStory = new Story();
       myStory.Noun1 = noun1;
@@ -19,7 +19,7 @@ namespace Madlibs.Controllers
       return View(myStory);
     }
 
-    [Route("/form")]
+    [Route("/")]
     public ActionResult Form() { return View(); }
   }
 }
