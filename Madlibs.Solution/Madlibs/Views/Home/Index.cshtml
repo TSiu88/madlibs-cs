@@ -1,10 +1,14 @@
+@{
+  ViewBag.Title = "Make My Story";
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
 <!DOCTYPE html>
 <html>
-  <head>
+  @* <head>
     <title>@{ViewBag.Title = "Make My Story";}</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link href="~/Content/Styles.css" rel="stylesheet" type="text/css" />
-  </head>
+    <link href="@{Url.Content("~/Content/Styles.css");}" rel="stylesheet" type="text/css" />
+  </head> *@
   <body>
     <div id="content">
       <h1>Mad Libs</h1>
