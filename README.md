@@ -1,8 +1,14 @@
-# [Project Name](https://github.com/ayohana/ProjectName.git/)
+# Madlibs
 
-#### C# & MVC Pattern Exercise for [Epicodus](https://www.epicodus.com/), 03.08.2020
+#### C# & MVC Pattern Exercise for [Epicodus](https://www.epicodus.com/), 03.09.2020
 
-#### By [**Adela Darmansyah**](https://ayohana.github.io/portfolio/)
+#### By **Adela Darmansyah and Tiffany Siu**
+
+## Pair Program WFH Summary
+
+* Journal Discussion
+* Warm up questions for the day
+* Madlibs project
 
 ## Description
 
@@ -41,7 +47,7 @@ No known bugs at this time.
 
 ## Support and contact details
 
-Feel free to provide feedback via email: adela.yohana@gmail.com.
+Feel free to provide feedback via at email: adela.yohana@gmail.com or tsiu88@gmail.com.
 
 ## Technologies Used
 
@@ -53,4 +59,4 @@ Feel free to provide feedback via email: adela.yohana@gmail.com.
 
 This C# console application is licensed under the MIT license.
 
-Copyright (c) 2020 **Adela Darmansyah**
+Copyright (c) 2020 **Adela Darmansyah, Tiffany Siu**
