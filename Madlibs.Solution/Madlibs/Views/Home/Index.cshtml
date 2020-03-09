@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Make My Story</title>
+    <title>@{ViewBag.Title = "Make My Story";}</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link href="~/Content/Styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Mad Libs</h1>
-    <p>Be kind to your @Model.Noun1-footed @Model.NounPlural</p>
-    <p>For a duck may be somebody`s @Model.Noun2,</p>
-    <p>Be kind to your @Model.NounPlural in @Model.Place</p>
-    <p>Where the weather is always @Model.Adjective.</p>
-    <br>
-    <p>You may think that this is the @Model.Noun3,</p>
-    <p>Well it is.</p>
+    <div id="content">
+      <h1>Mad Libs</h1>
+      <p>Be kind to your @Model.Noun1-footed @Model.NounPlural</p>
+      <p>For a duck may be somebody`s @Model.Noun2,</p>
+      <p>Be kind to your @Model.NounPlural in @Model.Place</p>
+      <p>Where the weather is always @Model.Adjective.</p>
+      <br>
+      <p>You may think that this is the @Model.Noun3,</p>
+      <p>Well it is.</p>
+    </div>
   </body>
 </html>
 

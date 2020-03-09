@@ -9,6 +9,7 @@
 * Journal Discussion
 * Warm up questions for the day
 * Madlibs project
+* Struggles with: Sharing browsers/servers to view the UI
 
 ## Description
 

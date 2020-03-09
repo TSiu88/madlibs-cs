@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Styles.css")" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="content">
+      @RenderBody()
+    </div>
+    @* <section id="main"> *@
+    @RenderBody()
+    @* </section> *@
+  </body>
+</html>
