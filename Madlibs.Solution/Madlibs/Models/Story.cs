@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace ProjectName.Models
+namespace Madlibs.Models
 {
-  public class ClassName
+  public class Story
   {
 
   }

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectName.Models;
+using Madlibs.Models;
 
-namespace ProjectName.Controllers
+namespace Madlibs.Controllers
 {
   public class HomeController : Controller
   {
