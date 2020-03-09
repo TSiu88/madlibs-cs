@@ -11,6 +11,7 @@
 * Madlibs project
 * Sharing servers to view UI in browser
 * Discover Git Mob to add co-authors into Git commits
+* Use static content (CSS) and layouts in MVC
 
 * Struggles with: Sharing browsers to view the UI, Adding CSS to a C# project
 
@@ -36,14 +37,11 @@
 ## Setup/Installation Requirements
 
 * Download [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/)
-* Clone this [repository](https://github.com/ayohana/anagram.git/)
+* Clone this [repository](https://github.com/ayohana//madlibs-cs.git/)
 * Open the `Command Line Interface`.
   * Navigate into the `ProjectName` directory.
     * Type in the command `dotnet restore` to gather tools and dependencies for the application.
     * Type in the command `dotnet run` to run the application.
-  * Navigate into the `ProjectName.Tests` directory.
-    * Type in the command `dotnet restore` to gather tools and dependencies for the tests.
-    * Type in the command `dotnet test` to run the tests. 
 
 ## Known Bugs
 

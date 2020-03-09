@@ -3,19 +3,34 @@
   Layout = "_Layout";
 }
 
-<h1>Fill in the form below to generate your madlibs!</h1>
-<form action="/madlib" method="post">
-  <label for="noun1">Noun 1:</label>
-  <input id="noun1" name="noun1" type="text">
-  <label for="noun2">Noun 2:</label>
-  <input id="noun2" name="noun2" type="text">
-  <label for="noun3">Noun 3:</label>
-  <input id="noun3" name="noun3" type="text">
-  <label for="nounPlural">Noun (Plural):</label>
-  <input id="nounPlural" name="nounPlural" type="text">
-  <label for="place">Place:</label>
-  <input id="place" name="place" type="text">
-  <label for="adjective">Adjective:</label>
-  <input id="adjective" name="adjective" type="text">
-  <button type="submit">Generate my story!</button>
-</form>
+<div class="container">
+  <h1>Fill in the form below to generate your madlibs!</h1>
+  <form action="/madlib" method="post">
+    <div class="form-group">
+      <label for="noun1">Noun 1:</label>
+      <input id="noun1" name="noun1" type="text"><br>
+    </div>
+    <div class="form-group">
+      <label for="noun2">Noun 2:</label>
+      <input id="noun2" name="noun2" type="text">
+    </div>
+    <div class="form-group">
+      <label for="noun3">Noun 3:</label>
+      <input id="noun3" name="noun3" type="text">
+    </div>
+    <div class="form-group">
+      <label for="nounPlural">Noun (Plural):</label>
+      <input id="nounPlural" name="nounPlural" type="text">
+    </div>
+    <div class="form-group">
+      <label for="place">Place:</label>
+      <input id="place" name="place" type="text">
+    </div>
+    <div class="form-group">
+      <label for="adjective">Adjective:</label>
+      <input id="adjective" name="adjective" type="text">
+    </div>
+    <button type="submit">Generate my story!</button>
+  </form>
+  <a href="/madlib">Click here to view without submitting the form</a>
+</div>
