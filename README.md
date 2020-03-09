@@ -9,7 +9,10 @@
 * Journal Discussion
 * Warm up questions for the day
 * Madlibs project
-* Struggles with: Sharing browsers/servers to view the UI
+* Sharing servers to view UI in browser
+* Discover Git Mob to add co-authors into Git commits
+
+* Struggles with: Sharing browsers to view the UI, Adding CSS to a C# project
 
 ## Description
 
